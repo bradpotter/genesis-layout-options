@@ -1,0 +1,245 @@
+/**
+ * Genesis Layout Options
+ *
+ * @package   Genesis_Layout_Options
+ * @author    Brad Potter
+ * @license   GPL-2.0+
+ * @link      http://www.bradpotter.com/plugins/genesis-layout-options
+ * @copyright Copyright (c) 2014, Brad Potter
+ */
+
+/* Table of Contents
+
+	- Layouts
+		- Sidebar - Content - Sidebar Alt
+		- Sidebar - Sidebar Alt - Content
+		- Content - Sidebar Alt - Sidebar
+		- Content - Sidebar Alt
+		- Sidebar Alt - Content
+	- Media Queries
+		- max-width: 1159px
+		- max-width: 1023px
+
+*/
+
+
+/*
+Layouts
+---------------------------------------------------------------------------------------------------- */
+
+
+/* Sidebar - Content - Sidebar Alt
+--------------------------------------------- */
+
+.sidebar-content-sidebaralt .content-sidebar-wrap {
+	float: left;
+	width: 940px;
+}
+
+.sidebar-content-sidebaralt .content {
+	float: right;
+	width: 540px;
+}
+
+.sidebar-content-sidebaralt .sidebar-primary {
+	float: left;
+}
+
+.sidebar-content-sidebaralt .sidebar-secondary {
+	float: right;
+}
+
+
+/* Sidebar - Sidebar Alt - Content
+--------------------------------------------- */
+
+.sidebar-sidebaralt-content .content-sidebar-wrap {
+	float: right;
+	width: 760px;
+}
+
+.sidebar-sidebaralt-content .content {
+	float: right;
+	width: 540px;
+}
+
+.sidebar-sidebaralt-content .sidebar-primary {
+	float: left;
+}
+
+.sidebar-sidebaralt-content .sidebar-secondary {
+	float: left;
+}
+
+
+/* Content - Sidebar Alt - Sidebar 
+--------------------------------------------- */
+
+.content-sidebaralt-sidebar .content-sidebar-wrap {
+	float: left;
+	width: 760px;
+}
+
+.content-sidebaralt-sidebar .content {
+	float: left;
+	width: 540px;
+}
+
+.content-sidebaralt-sidebar .sidebar-primary {
+	float: right;
+}
+
+.content-sidebaralt-sidebar .sidebar-secondary {
+	float: right;
+}
+
+/* Content - Sidebar Alt 
+--------------------------------------------- */
+
+.content-sidebaralt .content-sidebar-wrap {
+	float: left;
+}
+
+.content-sidebaralt .content {
+	float: left;
+	width: 940px;
+}
+
+.content-sidebaralt .sidebar-secondary {
+	float: right;
+}
+
+
+/* Sidebar Alt - Content
+--------------------------------------------- */
+
+.sidebaralt-content .content-sidebar-wrap {
+	float: right;
+}
+
+.sidebaralt-content .content {
+	float: left;
+	width: 940px;
+}
+
+.sidebaralt-content .sidebar-secondary {
+	float: left;
+}
+
+
+/*
+Media Queries
+---------------------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 1159px) {
+
+	
+	/* Sidebar - Content - Sidebar Alt
+	--------------------------------------------- */
+	
+	.sidebar-content-sidebaralt .content-sidebar-wrap {
+		width: 740px;
+	}
+	
+	.sidebar-content-sidebaralt .content {
+		width: 400px;
+	}
+	
+	/* Sidebar - Sidebar Alt - Content
+	--------------------------------------------- */
+	
+	.sidebar-sidebaralt-content .content-sidebar-wrap {
+		width: 620px;
+	}
+	
+	.sidebar-sidebaralt-content .content {
+		width: 400px;
+	}
+	
+	/*  Content - Sidebar Alt - Sidebar 
+	--------------------------------------------- */
+	
+	.content-sidebaralt-sidebar .content-sidebar-wrap {
+		width: 620px;
+	}
+	
+	.content-sidebaralt-sidebar .content {
+		width: 400px;
+	}
+	
+	/*  Content - Sidebar Alt 
+	--------------------------------------------- */
+	
+	.content-sidebaralt .content-sidebar-wrap {
+		width: 740px;
+	}
+	
+	.content-sidebaralt .content {
+		width: 740px;
+	}
+	
+	/*  Sidebar Alt - Content
+	--------------------------------------------- */
+	
+	.sidebaralt-content .content-sidebar-wrap {
+		width: 740px;
+	}
+	
+	.sidebaralt-content .content {
+		width: 740px;
+	}
+	
+}
+
+@media only screen and (max-width: 1023px) {
+
+
+	/* Sidebar - Content - Sidebar Alt
+	--------------------------------------------- */
+	
+	.sidebar-content-sidebaralt .content-sidebar-wrap,
+	.sidebar-content-sidebaralt .content,
+	.sidebar-content-sidebaralt .sidebar-primary,
+	.sidebar-content-sidebaralt .sidebar-secondary {
+		width: 100%;
+	}
+	
+	/* Sidebar - Sidebar Alt - Content
+	--------------------------------------------- */
+	
+	.sidebar-sidebaralt-content .content-sidebar-wrap,
+	.sidebar-sidebaralt-content .content,
+	.sidebar-sidebaralt-content .sidebar-primary,
+	.sidebar-sidebaralt-content .sidebar-secondary {
+		width: 100%;
+	}
+	
+	/* Content - Sidebar Alt - Sidebar
+	--------------------------------------------- */
+	
+	.content-sidebaralt-sidebar .content-sidebar-wrap,
+	.content-sidebaralt-sidebar .content,
+	.content-sidebaralt-sidebar .sidebar-primary,
+	.content-sidebaralt-sidebar .sidebar-secondary {
+		width: 100%;
+	}
+	
+	/* Content - Sidebar Alt
+	--------------------------------------------- */
+	
+	.content-sidebaralt .content-sidebar-wrap,
+	.content-sidebaralt .content,
+	.content-sidebaralt .sidebar-secondary {
+		width: 100%;
+	}
+	
+	/* Sidebar Alt - Content
+	--------------------------------------------- */
+	
+	.sidebaralt-content .content-sidebar-wrap,
+	.sidebaralt-content .content,
+	.sidebaralt-content .sidebar-secondary {
+		width: 100%;
+	}
+	
+}
