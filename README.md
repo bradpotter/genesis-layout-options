@@ -26,7 +26,7 @@ Check out the Codex for more information about [installing plugins manually](htt
 
 ## Usage
 
-Genesis Layout Options provides additional layouts to the Genesis Framework. Select from these new layouts just like you would from the built-in layouts. This plugin was created to work with the recently released ThemeCore theme. You may need to adjust the width settings in genesis-layout-options.css for your specific theme.
+Genesis Layout Options provides additional layouts to the Genesis Framework. Select from these new layouts just like you would from the built-in layouts. This plugin was created to work with the recently released [ThemeCore](https://github.com/bradpotter/themecore) ThemeCore theme. You may need to adjust the width settings in genesis-layout-options.css for your specific theme.
 
 ## Credits
 
