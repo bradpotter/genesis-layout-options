@@ -22,7 +22,6 @@
 
 */
 
-
 /*
 Layouts
 ---------------------------------------------------------------------------------------------------- */
@@ -49,7 +48,6 @@ Layouts
 	float: right;
 }
 
-
 /* Sidebar - Sidebar Alt - Content
 --------------------------------------------- */
 
@@ -70,7 +68,6 @@ Layouts
 .sidebar-sidebaralt-content .sidebar-secondary {
 	float: left;
 }
-
 
 /* Content - Sidebar Alt - Sidebar 
 --------------------------------------------- */
@@ -108,7 +105,6 @@ Layouts
 .content-sidebaralt .sidebar-secondary {
 	float: right;
 }
-
 
 /* Sidebar Alt - Content
 --------------------------------------------- */
