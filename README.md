@@ -31,4 +31,4 @@ Genesis Layout Options provides additional layouts to the Genesis Framework. Sel
 ## Credits
 
 Created by [Brad Potter](https://twitter.com/bradleypotter)  
-Copyright 2013 [Brad Potter](http://bradpotter.com/)
+Copyright 2014 [Brad Potter](http://bradpotter.com/)
