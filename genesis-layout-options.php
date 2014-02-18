@@ -10,7 +10,7 @@
  *
  * @wordpress-plugin
  * Plugin Name:       Genesis Layout Options
- * Plugin URI:        http://wordpress.org/plugins/genesis-layout-options
+ * Plugin URI:        https://github.com/bradpotter/genesis-layout-options
  * Description:       Adds additional layout options to the Genesis Framework.
  * Version:           1.0.0
  * Author:            Brad Potter
