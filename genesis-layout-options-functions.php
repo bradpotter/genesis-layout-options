@@ -26,7 +26,7 @@ function glo_style_sheet() {
 function glo_register_layout_scsa() {
 	
 	genesis_register_layout( 'sidebar-content-sidebaralt', array(
-		'label' => __('Sidebar-Content-SidebarAlt', 'genesis'),
+		'label' => __('Sidebar-Content-SidebarAlt', 'genesis-layout-options'),
 		'img' => GLO_URL . '/assets/layouts/sidebar-content-sidebaralt.gif'
 	) );
 
@@ -57,7 +57,7 @@ add_action('genesis_before', 'glo_create_layout_scsa');
 function glo_register_layout_ssac() {
 	
 	genesis_register_layout( 'sidebar-sidebaralt-content', array(
-		'label' => __('Sidebar-SidebarAlt-Content', 'genesis'),
+		'label' => __('Sidebar-SidebarAlt-Content', 'genesis-layout-options'),
 		'img' => GLO_URL . '/assets/layouts/sidebar-sidebaralt-content.gif'
 	) );
 
@@ -88,7 +88,7 @@ add_action('genesis_before', 'glo_create_layout_ssac');
 function glo_register_layout_csas() {
 	
 	genesis_register_layout( 'content-sidebaralt-sidebar', array(
-		'label' => __('Content-SidebarAlt-Sidebar', 'genesis'),
+		'label' => __('Content-SidebarAlt-Sidebar', 'genesis-layout-options'),
 		'img' => GLO_URL . '/assets/layouts/content-sidebaralt-sidebar.gif'
 	) );
 
@@ -119,7 +119,7 @@ add_action('genesis_before', 'glo_create_layout_csas');
 function glo_register_custom_layout_csa() {
 	
 	genesis_register_layout( 'content-sidebaralt', array(
-		'label' => __('Content-SidebarAlt', 'genesis'),
+		'label' => __('Content-SidebarAlt', 'genesis-layout-options'),
 		'img' => GLO_URL . '/assets/layouts/content-sidebaralt.gif'
 	) );
 
@@ -149,7 +149,7 @@ add_action('genesis_before', 'glo_create_custom_layout_csa');
 function glo_register_layout_sac() {
 	
 	genesis_register_layout( 'sidebaralt-content', array(
-		'label' => __('SidebarAlt-Content', 'genesis'),
+		'label' => __('SidebarAlt-Content', 'genesis-layout-options'),
 		'img' => GLO_URL . '/assets/layouts/sidebaralt-content.gif'
 	) );
 
