@@ -12,7 +12,7 @@
  * Plugin Name:       Genesis Layout Options
  * Plugin URI:        https://github.com/bradpotter/genesis-layout-options
  * Description:       Adds additional layout options to the Genesis Framework.
- * Version:           1.0.0
+ * Version:           2.1.2
  * Author:            Brad Potter
  * Author URI:        http://www.bradpotter.com
  * Text Domain:       genesis-layout-options

@@ -17,8 +17,8 @@
 		- Content - Sidebar Alt
 		- Sidebar Alt - Content
 	- Media Queries
-		- max-width: 1159px
-		- max-width: 1023px
+		- max-width: 1200px
+		- max-width: 960px
 
 */
 
@@ -32,12 +32,12 @@ Layouts
 
 .sidebar-content-sidebaralt .content-sidebar-wrap {
 	float: left;
-	width: 940px;
+	width: 990px;
 }
 
 .sidebar-content-sidebaralt .content {
 	float: right;
-	width: 540px;
+	width: 580px;
 }
 
 .sidebar-content-sidebaralt .sidebar-primary {
@@ -53,12 +53,12 @@ Layouts
 
 .sidebar-sidebaralt-content .content-sidebar-wrap {
 	float: right;
-	width: 760px;
+	width: 790px;
 }
 
 .sidebar-sidebaralt-content .content {
 	float: right;
-	width: 540px;
+	width: 580px;
 }
 
 .sidebar-sidebaralt-content .sidebar-primary {
@@ -74,12 +74,12 @@ Layouts
 
 .content-sidebaralt-sidebar .content-sidebar-wrap {
 	float: left;
-	width: 760px;
+	width: 790px;
 }
 
 .content-sidebaralt-sidebar .content {
 	float: left;
-	width: 540px;
+	width: 580px;
 }
 
 .content-sidebaralt-sidebar .sidebar-primary {
@@ -99,7 +99,7 @@ Layouts
 
 .content-sidebaralt .content {
 	float: left;
-	width: 940px;
+	width: 990px;
 }
 
 .content-sidebaralt .sidebar-secondary {
@@ -115,7 +115,7 @@ Layouts
 
 .sidebaralt-content .content {
 	float: left;
-	width: 940px;
+	width: 990px;
 }
 
 .sidebaralt-content .sidebar-secondary {
@@ -127,40 +127,40 @@ Layouts
 Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
-@media only screen and (max-width: 1159px) {
+@media only screen and (max-width: 1200px) {
 
 	
 	/* Sidebar - Content - Sidebar Alt
 	--------------------------------------------- */
 	
 	.sidebar-content-sidebaralt .content-sidebar-wrap {
-		width: 740px;
+		width: 750px;
 	}
 	
 	.sidebar-content-sidebaralt .content {
-		width: 400px;
+		width: 420px;
 	}
 	
 	/* Sidebar - Sidebar Alt - Content
 	--------------------------------------------- */
 	
 	.sidebar-sidebaralt-content .content-sidebar-wrap {
-		width: 620px;
+		width: 630px;
 	}
 	
 	.sidebar-sidebaralt-content .content {
-		width: 400px;
+		width: 420px;
 	}
 	
 	/*  Content - Sidebar Alt - Sidebar 
 	--------------------------------------------- */
 	
 	.content-sidebaralt-sidebar .content-sidebar-wrap {
-		width: 620px;
+		width: 630px;
 	}
 	
 	.content-sidebaralt-sidebar .content {
-		width: 400px;
+		width: 420px;
 	}
 	
 	/*  Content - Sidebar Alt 
@@ -171,23 +171,23 @@ Media Queries
 	}
 	
 	.content-sidebaralt .content {
-		width: 740px;
+		width: 750px;
 	}
 	
 	/*  Sidebar Alt - Content
 	--------------------------------------------- */
 	
 	.sidebaralt-content .content-sidebar-wrap {
-		width: 740px;
+		width: 750px;
 	}
 	
 	.sidebaralt-content .content {
-		width: 740px;
+		width: 750px;
 	}
 	
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 960px) {
 
 
 	/* Sidebar - Content - Sidebar Alt

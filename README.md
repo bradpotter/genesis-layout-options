@@ -36,4 +36,4 @@ Visit [http://themecore.com/layouts/](http://themecore.com/layouts/)
 ## Credits
 
 Created by [Brad Potter](https://twitter.com/bradleypotter)  
-Copyright 2014 [Brad Potter](http://bradpotter.com/)
+Copyright 2015 [Brad Potter](http://bradpotter.com/)
